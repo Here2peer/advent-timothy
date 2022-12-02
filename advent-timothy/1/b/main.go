@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	elfs, err := os.Open("1/inventory")
+	elfs, err := os.Open("1/b/inventory")
 
 	if err != nil {
 		log.Fatal(err)
