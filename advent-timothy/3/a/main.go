@@ -44,7 +44,6 @@ func main() {
 		compartments[0] = ""
 		compartments[1] = ""
 	}
-	fmt.Println(sameGoods)
 	var score = 0
 	for scoreindex.Scan() {
 		for _, goods := range sameGoods {
